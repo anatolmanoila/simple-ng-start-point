@@ -1,0 +1,30 @@
+{
+  "name": "protractor-series",
+  "version": "0.0.0",
+  "authors": [
+    "aema"
+  ],
+  "description": "app testing series",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "demo"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.17",
+    "angular-mocks": "~1.2.17",
+    "angular-ui-router": "~0.2.10",
+    "bootstrap": "~3.1.1"
+  }
+}
