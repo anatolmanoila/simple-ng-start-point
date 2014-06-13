@@ -11,8 +11,6 @@ angular.module("myApp", [
             $scope.messageText = text;
           }
         }
-      })
-    ;
+      });
     $urlRouterProvider.otherwise('/');
-  })
-;
+  });
