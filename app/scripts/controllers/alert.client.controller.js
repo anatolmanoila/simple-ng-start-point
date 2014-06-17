@@ -1,4 +1,4 @@
 angular.module('directivesApp')
-  .controller('MainController', ['$scope',function($scope){
+  .controller('AlertController', ['$scope',function($scope){
     $scope.msg = 'is working';
   }]);

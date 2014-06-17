@@ -5,8 +5,8 @@ angular.module("directivesApp", [
     $stateProvider
       .state('index', {
         url: '/',
-        templateUrl: 'templates/main.client.view.html',
-        controller: 'MainController'
+        templateUrl: 'templates/alert.client.view.html',
+        controller: 'AlertController'
       });
     $urlRouterProvider.otherwise('/');
   });
